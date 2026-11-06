@@ -1,8 +1,8 @@
 # Claude Code skill for Instagram Reels hooks, TikTok and YouTube Shorts scripts
 
-**viral-reel-playbook** is a free, open-source [Claude Code](https://claude.com/claude-code) skill that writes short educational video scripts for Instagram Reels, TikTok and YouTube Shorts: the hook, the rehook around 15 to 20 seconds, the funnel job of each video and the caption look. The goal is videos people watch to the end and that bring in clients, not just views.
+I built **viral-reel-playbook** from the transcripts of six reels by six creators. It's a free [Claude Code](https://claude.com/claude-code) skill for Reels, TikTok and Shorts scripts.
 
-It is built from the transcripts of six reels by six creators. Each rule links back to the reel it came from:
+**The aim is videos people watch to the end** and that bring in clients. Each rule links back to the reel it came from:
 
 | Part | What it answers | Learned from |
 |---|---|---|
@@ -20,7 +20,7 @@ One rule runs through all of it: **never invent a result to fit a pattern.** Eve
 
 ## Install
 
-Clone it into your personal skills folder, and it works in every project:
+Clone it into your personal skills folder and it works in every project:
 
 ```bash
 git clone https://github.com/s77sh/viral-reel-playbook ~/.claude/skills/viral-reel-playbook
@@ -30,7 +30,7 @@ Or put it in one project only, at `.claude/skills/viral-reel-playbook/`.
 
 ## Use
 
-Open Claude Code and ask in plain words. For example:
+Open Claude Code and ask in plain words. Here are a few:
 
 - "viral-reel-playbook: write a 40-second script about [topic]"
 - "Rehook this script, people drop off at 15 seconds"
@@ -40,48 +40,58 @@ Open Claude Code and ask in plain words. For example:
 - "I froze on camera today, can I still post it?"
 - "Which fonts should my captions use?"
 
-Claude names the funnel stage, picks an opening pattern, adds a rehook around 15-20 seconds, and checks every claim before handing it back.
+Claude names the funnel stage and picks an opening pattern. Then it adds **a rehook around 15 to 20 seconds** and checks every claim before handing it back.
 
 ## Make it yours
 
-Add a `personal.md` next to `SKILL.md` with your own rules: topics you won't touch on camera, your real results and examples, your voice notes, and font paths. The skill reads it first, and it overrides the general rules. It's in `.gitignore`, so it never gets pushed.
+Add a `personal.md` next to `SKILL.md` with the topics you won't touch on camera, your real results and your font paths. **The skill reads it first**, and it's gitignored.
 
 ## Credits
 
-The ideas belong to the creators linked above; this repo only summarizes and organizes them. Go follow them. The spotlight-effect research is Gilovich, Medvec and Savitsky (2000), *Journal of Personality and Social Psychology*.
+**The ideas belong to the creators linked above.** This repo only sorts them into steps, so go follow them.
 
-**Fonts:**
-- Impact and Snell Roundhand ship with the OS.
-- Playfair Display is free (SIL Open Font License).
-- Rocktown is free for personal use only; buy a commercial license before using it in posted videos.
+The spotlight-effect research is Gilovich, Medvec and Savitsky (2000), *Journal of Personality and Social Psychology*.
+
+| Font | License |
+|---|---|
+| Impact, Snell Roundhand | Ship with the OS |
+| Playfair Display | Free (SIL Open Font License) |
+| Rocktown | Free for personal use only: buy a commercial license before posting videos with it |
 
 No font files are included.
 
 ## FAQ
 
-**What is a Claude Code skill?**
-A folder with a `SKILL.md` file that Claude Code loads when your request matches it. Once it's in `~/.claude/skills/`, you don't call it by hand: ask for a reel script and Claude uses it.
+### What is a Claude Code skill?
 
-**Does it work for TikTok and YouTube Shorts, or only Instagram Reels?**
-All three. The hooks, rehooks and funnel stages work the same way on any short vertical video.
+A folder Claude Code loads by itself when your request matches it. Ask for a reel script and **Claude uses this one without being told**.
 
-**Can it write reel hooks on their own?**
-Yes. Ask for hook ideas for a topic and it gives openings built on the five watch-longer patterns, with a rehook for the 15 to 20 second mark.
+### Does it work for TikTok and YouTube Shorts, or only Instagram Reels?
 
-**Will it make up results to make a hook work?**
-It shouldn't. The skill's core rule is never to invent a result to fit a pattern: every number, story and backdrop has to be real. If you don't have the result a pattern needs, use a different pattern.
+All three. The hooks, rehooks and funnel stages work the same on any short vertical video.
 
-**Does it work with other AI agents?**
-It's written for Claude Code. The `SKILL.md` is plain Markdown, so you can paste it into any agent that takes instructions.
+### Can it write reel hooks on their own?
+
+Yes. Give it a topic and it writes openings from **the five watch-longer patterns**, with a rehook for the 15 to 20 second mark.
+
+### Will it make up results to make a hook work?
+
+It shouldn't. Its core rule is never to invent a result to fit a pattern, so if you don't have the result, **pick a pattern that doesn't need one**.
+
+### Does it work with other AI agents?
+
+It's written for Claude Code, but **`SKILL.md` is plain Markdown**. Paste it into any agent that takes instructions.
 
 ## Related repos
 
-- [claude-seo-skills-benchmark](https://github.com/s77sh/claude-seo-skills-benchmark): 5 Claude Code SEO skill packs tested on 20 planted problems.
-- [claude-random-numbers](https://github.com/s77sh/claude-random-numbers): which number Claude picks when asked for a random one, 446 prompts.
-- [interview-prep-pack](https://github.com/s77sh/interview-prep-pack): a Claude Code skill that builds interview prep from your own resume.
-- [bali-product-demand](https://github.com/s77sh/bali-product-demand): Google Keyword Planner demand for 36 product niches in Bali.
+| Repo | What it is |
+|---|---|
+| [claude-seo-skills-benchmark](https://github.com/s77sh/claude-seo-skills-benchmark) | 5 Claude Code SEO skill packs tested on 20 planted problems |
+| [claude-random-numbers](https://github.com/s77sh/claude-random-numbers) | Which number Claude picks when you ask for a random one |
+| [interview-prep-pack](https://github.com/s77sh/interview-prep-pack) | A Claude Code skill that builds interview prep from your own resume |
+| [bali-product-demand](https://github.com/s77sh/bali-product-demand) | Keyword Planner demand for 36 product niches in Bali |
 
-All of them, with what each one is for: [saeedseo.com/repos/](https://saeedseo.com/repos/).
+What each one is for: [saeedseo.com/repos/](https://saeedseo.com/repos/).
 
 ## Author
 
