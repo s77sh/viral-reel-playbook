@@ -1,11 +1,11 @@
 ---
 name: reel-playbook
-description: A playbook for short educational videos (Reels, TikTok, Shorts) that hold viewers and turn them into clients. Covers what to be known for (Sam Stoffel, one problem you've solved), the funnel job of each video (Dan Martell, top, middle and bottom of funnel), five watch-longer patterns (Chris Chung), the one-take truth format for fear of posting (Benji Wilkins), and the fonts and caption look (Kalyl). Use when the user says "reel-playbook" or "viral-edu-format", asks to write, fix or rehook a short video script, hook or video brief, says "make people watch longer", "retention hook" or "rehook", wants an educational video that holds viewers to the end, asks "what should I be known for", "what's my niche", "how do I make money from content", "what kind of video should this be", "top/middle/bottom of funnel", "content mix" or "which videos bring clients", says they're scared to post or keep putting it off, wants a one-take or "I froze" video, or asks which fonts, colors or caption style to use.
+description: A playbook for short educational videos (Reels, TikTok, Shorts) that hold viewers and turn them into clients. Covers what to be known for (Sam Stoffel, one problem you've solved), the three questions before every video (Elliott Vitzthum: who's watching, why care, what they remember), the funnel job of each video (Dan Martell, top, middle and bottom of funnel), five watch-longer patterns (Chris Chung), the one-take truth format for fear of posting (Benji Wilkins), and the fonts and caption look (Kalyl). Use when the user says "reel-playbook" or "viral-edu-format", asks to write, fix or rehook a short video script, hook or video brief, says "make people watch longer", "retention hook" or "rehook", wants an educational video that holds viewers to the end, asks "why is nobody watching", "should I post more", "what should I be known for", "what's my niche", "how do I make money from content", "what kind of video should this be", "top/middle/bottom of funnel", "content mix" or "which videos bring clients", says they're scared to post or keep putting it off, wants a one-take or "I froze" video, or asks which fonts, colors or caption style to use.
 ---
 
 # reel-playbook
 
-The playbook has three parts: what you're known for, what each video is for, and how to hold the viewer to the end.
+The playbook answers four things: what you're known for, whether a video is worth making, what it's for, and how to hold the viewer to the end.
 
 **First:** if `personal.md` exists next to this file, read it. It holds the creator's own rules, examples, file paths and voice, and it overrides anything general here.
 
@@ -19,6 +19,16 @@ From Sam Stoffel (@samstoffel), "how to actually get rich with Instagram in 60 s
 - **Keep saying the same thing.** Repetition is how people learn what you're for. A new angle each day, the same problem every day.
 - **Sell a way to get the same result:** a product you own (a course, a community, mentorship, a done-for-you service). "If you don't sell something, you can't make money."
 - **Test for any niche:** can you say it in one sentence a stranger understands? "I help [who] [get what result], because I [did it myself]." If the last part isn't true yet, it isn't your niche yet.
+
+## Before every video: the three questions
+
+From Elliott Vitzthum (@ellvitz), https://www.instagram.com/reel/DfZnojzItNF/ (67 s). He runs a content agency, and his point is that posting more won't fix videos nobody cares about. Answer all three before recording. If you can't, change the idea, not the posting schedule.
+
+1. **Who is actually watching this?** One kind of person, named.
+2. **Why should they care?** What does it change for them, not for you?
+3. **What are they left with to remember you?** One line, number or picture they could repeat to a friend.
+
+A video about you ("my story", "my journey") fails question 2 unless the story hands the viewer something: a lesson, a tool, or a question they want to answer.
 
 ## Step 1: pick the funnel job before you hit record
 
@@ -73,6 +83,18 @@ From Sam Stoffel's reel, which is one locked-off shot with no cuts and still hol
 - **End card: "Follow [name] to [result]."** The follow ask names what they get, not just your name.
 - **The caption carries the offer:** "Comment [WORD]" for a free resource. One word, one resource.
 
+From Elliott Vitzthum's reel, a single talking head that never feels static:
+
+- **Cut away every 3-6 seconds to show the line being said.** Show the words as a picture:
+  - a short phrase in black on a plain white card;
+  - the thing people keep saying, big, with its variations faded above and below ("more reels" between "we need to post more" and "we need more videos");
+  - a number made visible ("another 30 videos" over a folder of `Video 22.mp4`, `Video 23.mp4`...);
+  - each question on its own background.
+  A green screen does the same job: change what's behind you on each beat.
+- **Credentials in a bracket.** One line of standing, in a colored bracket, over B-roll: `[ Who literally runs a content agency ]`. Said once, early, then move on.
+- **Captions beside the face.** 1-3 words at eye level, split left and right of the head, instead of a block low on the screen.
+- **A plain spoken opener can replace a hook card:** "I'm gonna be real here," straight into the flip.
+
 ## The truth format: when you're scared to post
 
 From Benji Wilkins (@benjitwilkins), "Day 21/100 overcoming fear of posting", https://www.instagram.com/reel/Ddkc7wwofQ1/ (66 s): a fumbled intro, 60 s of silence, and the story told afterward in on-screen text. It got about 11K likes; his normal days get 40-400.
@@ -104,6 +126,7 @@ From Kalyl (@kalylsfilms), https://www.instagram.com/reel/DcBwAjvoEqI/. A render
 ## Check before handing over
 
 - Does the video serve the one problem the creator is known for?
+- Can you answer the three questions: who's watching, why should they care, what will they remember?
 - Is the funnel stage named, and does a BOFU video open on the buyer's pain with one ask?
 - Does the first line use one pattern and land the topic word?
 - Is there a P4 rehook around 15-20 s (on videos over 20 s)?
