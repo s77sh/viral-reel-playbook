@@ -1,8 +1,8 @@
-# viral-reel-playbook
+# Claude Code skill for Instagram Reels hooks, TikTok and YouTube Shorts scripts
 
-A [Claude Code](https://claude.com/claude-code) skill for writing short educational videos (Instagram Reels, TikTok, YouTube Shorts) that people watch to the end and that bring in clients, not just views.
+**viral-reel-playbook** is a free, open-source [Claude Code](https://claude.com/claude-code) skill that writes short educational video scripts for Instagram Reels, TikTok and YouTube Shorts: the hook, the rehook around 15 to 20 seconds, the funnel job of each video and the caption look. The goal is videos people watch to the end and that bring in clients, not just views.
 
-It is built from the transcripts of seven creators' reels. Each rule links back to the reel it came from:
+It is built from the transcripts of six reels by six creators. Each rule links back to the reel it came from:
 
 | Part | What it answers | Learned from |
 |---|---|---|
@@ -56,6 +56,32 @@ The ideas belong to the creators linked above; this repo only summarizes and org
 - Rocktown is free for personal use only; buy a commercial license before using it in posted videos.
 
 No font files are included.
+
+## FAQ
+
+**What is a Claude Code skill?**
+A folder with a `SKILL.md` file that Claude Code loads when your request matches it. Once it's in `~/.claude/skills/`, you don't call it by hand: ask for a reel script and Claude uses it.
+
+**Does it work for TikTok and YouTube Shorts, or only Instagram Reels?**
+All three. The hooks, rehooks and funnel stages work the same way on any short vertical video.
+
+**Can it write reel hooks on their own?**
+Yes. Ask for hook ideas for a topic and it gives openings built on the five watch-longer patterns, with a rehook for the 15 to 20 second mark.
+
+**Will it make up results to make a hook work?**
+It shouldn't. The skill's core rule is never to invent a result to fit a pattern: every number, story and backdrop has to be real. If you don't have the result a pattern needs, use a different pattern.
+
+**Does it work with other AI agents?**
+It's written for Claude Code. The `SKILL.md` is plain Markdown, so you can paste it into any agent that takes instructions.
+
+## Related
+
+- [interview-prep-pack](https://github.com/s77sh/interview-prep-pack): a Claude Code skill that builds interview prep from your own resumes and work.
+- [claude-seo-skills-benchmark](https://github.com/s77sh/claude-seo-skills-benchmark): 5 Claude Code SEO skill packs tested on 20 planted problems.
+
+## Author
+
+Saeed Shahriar, senior SEO and growth marketer. [saeedseo.com](https://saeedseo.com)
 
 ## License
 
