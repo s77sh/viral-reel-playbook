@@ -74,10 +74,14 @@ It shouldn't. The skill's core rule is never to invent a result to fit a pattern
 **Does it work with other AI agents?**
 It's written for Claude Code. The `SKILL.md` is plain Markdown, so you can paste it into any agent that takes instructions.
 
-## Related
+## Related repos
 
-- [interview-prep-pack](https://github.com/s77sh/interview-prep-pack): a Claude Code skill that builds interview prep from your own resumes and work.
 - [claude-seo-skills-benchmark](https://github.com/s77sh/claude-seo-skills-benchmark): 5 Claude Code SEO skill packs tested on 20 planted problems.
+- [claude-random-numbers](https://github.com/s77sh/claude-random-numbers): which number Claude picks when asked for a random one, 446 prompts.
+- [interview-prep-pack](https://github.com/s77sh/interview-prep-pack): a Claude Code skill that builds interview prep from your own resume.
+- [bali-product-demand](https://github.com/s77sh/bali-product-demand): Google Keyword Planner demand for 36 product niches in Bali.
+
+All of them, with what each one is for: [saeedseo.com/repos/](https://saeedseo.com/repos/).
 
 ## Author
 
