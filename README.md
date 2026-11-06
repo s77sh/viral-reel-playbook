@@ -1,4 +1,4 @@
-# reel-playbook
+# viral-reel-playbook
 
 A [Claude Code](https://claude.com/claude-code) skill for writing short educational videos (Instagram Reels, TikTok, YouTube Shorts) that people watch to the end and that bring in clients, not just views.
 
@@ -23,16 +23,16 @@ One rule runs through all of it: **never invent a result to fit a pattern.** Eve
 Clone it into your personal skills folder, and it works in every project:
 
 ```bash
-git clone https://github.com/s77sh/reel-playbook ~/.claude/skills/reel-playbook
+git clone https://github.com/s77sh/viral-reel-playbook ~/.claude/skills/viral-reel-playbook
 ```
 
-Or put it in one project only, at `.claude/skills/reel-playbook/`.
+Or put it in one project only, at `.claude/skills/viral-reel-playbook/`.
 
 ## Use
 
 Open Claude Code and ask in plain words. For example:
 
-- "reel-playbook: write a 40-second script about [topic]"
+- "viral-reel-playbook: write a 40-second script about [topic]"
 - "Rehook this script, people drop off at 15 seconds"
 - "Is this a top, middle or bottom of funnel video?"
 - "Nobody watches my videos. Should I post more?"
